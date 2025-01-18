@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* shared styles */
+
+.grid-content,
+.full-width {
+  display: grid;
+  grid-template-columns:
+    [full-width-start] 1fr [content-start] minmax(0, 1280px)
+    [content-end] 1fr [full-width-end];
+}
+
+.grid-content > *,
+.full-width > * {
+  grid-column: content;
+}
+
+.grid-content > .full-width {
+  grid-column: full-width;
+}
