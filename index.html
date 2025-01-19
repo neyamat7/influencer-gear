@@ -4,9 +4,377 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/5bc67b8b0e.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Influencer Gear</title>
   </head>
   <body>
-    <h1>hlw</h1>
+    <header class="grid-content">
+      <nav class="flex">
+        <input type="checkbox" id="check" />
+        <label for="check">
+          <div class="menu-icon flex">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </label>
+
+        <label for="check" class="close-menu">
+          <div>
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </label>
+
+        <h1 class="logo">Influencer products</h1>
+
+        <div class="cart-icon-container">
+          <a href="" class="nav-link"
+            ><svg
+              class="cart-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <ul class="nav-items">
+          <li class="nav-item"><a href="" class="nav-link"> Home </a></li>
+          <li class="nav-item"><a href="" class="nav-link">Products</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Sign up</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Log in</a></li>
+          <li class="nav-item">
+            <a href="" class="nav-link"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"
+              ><svg
+                class="cart-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- hero section -->
+      <section class="hero-section flex-col">
+        <div class="hero-content-container flex">
+          <div class="hero-content flex-col">
+            <h1 class="main-header">
+              Start your Journey<span class="break"><br /></span> as Influencer
+            </h1>
+            <p class="desc-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
+              vestibulum sed scelerisque eros. Lectus faucibus.
+            </p>
+            <button class="btn-primary flex hero-btn">
+              Prebook now
+              <span class="right-arrow-icon">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <img src="images/main-camera.png" alt="" />
+        </div>
+      </section>
+    </header>
+
+    <!-- main section starts -->
+    <main class="grid-content">
+      <section class="sponsor-section">
+        <img src="logos/Alibaba.svg" alt="" />
+        <img src="logos/Amazon.svg" alt="" />
+        <img src="logos/Daraz.pk Logo.svg" alt="" />
+        <img src="logos/Ebay.svg" alt="" />
+        <img src="logos/Rakuten.svg" alt="" />
+        <img src="logos/Target.svg" alt="" />
+        <img src="logos/Walmart.svg" alt="" />
+      </section>
+
+      <section class="collection-card-section flex-col">
+        <h2 class="small-header">Popular Collection</h2>
+
+        <!-- card container starts -->
+        <div class="card-container">
+          <div class="card flex-col">
+            <div class="card-img">
+              <img src="images/tripod.png" alt="" />
+            </div>
+            <h2 class="small-header">Flex Tripod</h2>
+            <p class="price">$50.48</p>
+            <div class="rate-and-desc flex-col">
+              <span class="ratings flex">
+                <span class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="point">4.99</span>
+              </span>
+              <p class="card-desc-text">
+                Wordwide shifting available Buyers protection possible!
+              </p>
+            </div>
+          </div>
+
+          <div class="card flex-col">
+            <div class="card-img">
+              <img src="images/airpod.png" alt="" />
+            </div>
+            <h2 class="small-header">Airbuds</h2>
+            <p class="price">$100.00</p>
+            <div class="rate-and-desc flex-col">
+              <span class="ratings flex">
+                <span class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="point">4.99</span>
+              </span>
+              <p class="card-desc-text">
+                Wordwide shifting available Buyers protection possible!
+              </p>
+            </div>
+          </div>
+
+          <div class="card flex-col">
+            <div class="card-img">
+              <img src="images/action.png" alt="" />
+            </div>
+            <h2 class="small-header">Action Camera</h2>
+            <p class="price">$380.00</p>
+            <div class="rate-and-desc flex-col">
+              <span class="ratings flex">
+                <span class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="point">4.99</span>
+              </span>
+              <p class="card-desc-text">
+                Wordwide shifting available Buyers protection possible!
+              </p>
+            </div>
+          </div>
+
+          <div class="card flex-col">
+            <div class="card-img">
+              <img src="images/camera.png" alt="" />
+            </div>
+            <h2 class="small-header">Vlogging Camera</h2>
+            <p class="price">$1800.80</p>
+            <div class="rate-and-desc flex-col">
+              <span class="ratings flex">
+                <span class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="point">4.99</span>
+              </span>
+              <p class="card-desc-text">
+                Wordwide shifting available Buyers protection possible!
+              </p>
+            </div>
+          </div>
+
+          <div class="card flex-col">
+            <div class="card-img">
+              <img src="images/drone.png" alt="" />
+            </div>
+            <h2 class="small-header">Drone</h2>
+            <p class="price">$980.25</p>
+            <div class="rate-and-desc flex-col">
+              <span class="ratings flex">
+                <span class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="point">4.99</span>
+              </span>
+              <p class="card-desc-text">
+                Wordwide shifting available Buyers protection possible!
+              </p>
+            </div>
+          </div>
+
+          <div class="card flex-col">
+            <div class="card-img">
+              <img src="images/lights.png" alt="" />
+            </div>
+            <h2 class="small-header">Light Setup</h2>
+            <p class="price">$1200.00</p>
+            <div class="rate-and-desc flex-col">
+              <span class="ratings flex">
+                <span class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="point">4.99</span>
+              </span>
+              <p class="card-desc-text">
+                Wordwide shifting available Buyers protection possible!
+              </p>
+            </div>
+          </div>
+
+          <div class="card flex-col">
+            <div class="card-img">
+              <img src="images/mic.png" alt="" />
+            </div>
+            <h2 class="small-header">microphone</h2>
+            <p class="price">$120.25</p>
+            <div class="rate-and-desc flex-col">
+              <span class="ratings flex">
+                <span class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="point">4.99</span>
+              </span>
+              <p class="card-desc-text">
+                Wordwide shifting available Buyers protection possible!
+              </p>
+            </div>
+          </div>
+
+          <div class="card flex-col">
+            <div class="card-img">
+              <img src="images/setup.png" alt="" />
+            </div>
+            <h2 class="small-header">Photoshoot set</h2>
+            <p class="price">$820.40</p>
+            <div class="rate-and-desc flex-col">
+              <span class="ratings flex">
+                <span class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="point">4.99</span>
+              </span>
+              <p class="card-desc-text">
+                Wordwide shifting available Buyers protection possible!
+              </p>
+            </div>
+          </div>
+
+          <div class="card flex-col">
+            <div class="card-img">
+              <img src="images/single-light.png" alt="" />
+            </div>
+            <h2 class="small-header">Green Screen</h2>
+            <p class="price">$25.48</p>
+            <div class="rate-and-desc flex-col">
+              <span class="ratings flex">
+                <span class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="point">4.99</span>
+              </span>
+              <p class="card-desc-text">
+                Wordwide shifting available Buyers protection possible!
+              </p>
+            </div>
+          </div>
+
+          <button class="see-more-btn flex">
+            See More
+            <span class="right-arrow-icon">
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </button>
+        </div>
+        <!-- card container ends -->
+      </section>
+
+      <!-- featured products section -->
+      <section class="featured-products-section flex-col">
+        <div class="feature-description flex-col">
+          <h1 class="feature-header">Featured products at one place</h1>
+          <p class="desc-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <button class="btn-primary flex">
+            Join Now
+            <span class="right-arrow-icon">
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </button>
+        </div>
+
+        <div class="feature-img">
+          <img src="images/gear.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <!-- main section ends -->
+
+    <!-- footer sectiotn starts -->
+    <footer class="grid-content">
+      <div class="footer-content flex-col">
+        <h2 class="small-header">Influencer products</h2>
+        <p>Copyright © 2020 influencer products</p>
+        <p>All rights reserved</p>
+        <div class="social-icon">
+          <img src="images/" alt="" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
