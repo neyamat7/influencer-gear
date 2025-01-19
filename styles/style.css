@@ -93,7 +93,7 @@ button {
 
 /* nav styles */
 nav {
-  margin-top: 20px;
+  margin-top: 15px;
   padding: 15px 0;
   justify-content: space-between;
   align-items: center;
@@ -402,6 +402,9 @@ footer {
 }
 
 @media screen and (min-width: 576px) {
+  nav {
+    margin-top: 20px;
+  }
   /* header styles */
   .logo {
     font-size: 1.5rem;
